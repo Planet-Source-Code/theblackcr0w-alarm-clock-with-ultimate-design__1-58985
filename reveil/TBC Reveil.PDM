@@ -1,0 +1,123 @@
+[Root]
+Most Recent Package=Logiciel d'installation standard 1
+
+
+[Package|Logiciel d'installation standard 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\WINDOWS\Bureau\reveil\Package
+
+[Package|Logiciel d'installation standard 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Logiciel d'installation standard 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Logiciel d'installation standard 1|Files Found]
+
+[Package|Logiciel d'installation standard 1|Files Released]
+VBRun60sp5.exe=
+
+[Package|Logiciel d'installation standard 1|Missing Dependency Information]
+C:\WINDOWS\Bureau\reveil\VBRun60sp5.exe=
+
+[Package|Logiciel d'installation standard 1|Out-of-Date Dependency Information]
+
+[Package|Logiciel d'installation standard 1|Files Added]
+c:\windows\bureau\reveil\groove armada sample.mp3=
+c:\windows\bureau\reveil\read me.txt=
+c:\windows\bureau\reveil\icone.ico=
+c:\windows\bureau\reveil\ins1.jpg=
+c:\windows\bureau\reveil\ins2.jpg=
+vbrun60sp5.exe=
+
+[Package|Logiciel d'installation standard 1|Files Removed]
+
+[Package|Logiciel d'installation standard 1|Files In Project]
+C:\WINDOWS\Bureau\reveil\TBC Reveil.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\VB6FR.DLL=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM\CMDLGFR.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINDOWS\Bureau\reveil\groove armada sample.mp3=Yes
+C:\WINDOWS\Bureau\reveil\Read Me.txt=Yes
+C:\WINDOWS\Bureau\reveil\icone.ICO=Yes
+C:\WINDOWS\Bureau\reveil\ins1.jpg=Yes
+C:\WINDOWS\Bureau\reveil\ins2.jpg=Yes
+
+[Package|Logiciel d'installation standard 1|Configure Registry Files]
+Applicable=No
+
+[Package|Logiciel d'installation standard 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Logiciel d'installation standard 1|Install Locations]
+C:\WINDOWS\Bureau\reveil\TBC Reveil.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB6FR.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\CMDLGFR.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\Bureau\reveil\groove armada sample.mp3=$(AppPath)
+C:\WINDOWS\Bureau\reveil\Read Me.txt=$(AppPath)
+C:\WINDOWS\Bureau\reveil\icone.ICO=$(AppPath)
+C:\WINDOWS\Bureau\reveil\ins1.jpg=$(AppPath)
+C:\WINDOWS\Bureau\reveil\ins2.jpg=$(AppPath)
+C:\WINDOWS\Bureau\reveil\VBRun60sp5.exe=$(AppPath)
+
+[Package|Logiciel d'installation standard 1|Configure Shared Files]
+Applicable=Yes
+C:\WINDOWS\Bureau\reveil\TBC Reveil.exe=No
+C:\WINDOWS\Bureau\reveil\groove armada sample.mp3=No
+C:\WINDOWS\Bureau\reveil\Read Me.txt=No
+C:\WINDOWS\Bureau\reveil\icone.ICO=No
+C:\WINDOWS\Bureau\reveil\ins1.jpg=No
+C:\WINDOWS\Bureau\reveil\ins2.jpg=No
+C:\WINDOWS\Bureau\reveil\VBRun60sp5.exe=No
+
+[Package|Logiciel d'installation standard 1|Distribution]
+Type=single
+Size=
+Title=TBC Reveil
+
+[Package|Logiciel d'installation standard 1|IconGroups]
+Group0=TBC Reveil
+PrivateGroup0=Faux
+Parent0=$(Programs)
+
+[Package|Logiciel d'installation standard 1|TBC Reveil]
+Icon1="Read Me.txt"
+Title1=Lisez moi
+StartIn1=$(AppPath)
+Key1=Icon3
+Icon2="TBC Reveil.exe"
+Title2=TBC Reveil
+StartIn2=$(AppPath)
+Key2=Icon1
+
+[Package|Logiciel d'installation standard 1|Package]
+PackageFolder=C:\WINDOWS\Bureau\reveil\Package
+ProjectFolder=C:\WINDOWS\Bureau\reveil
+ServerSideCab=
+File1=C:\WINDOWS\Bureau\reveil\Package\setup.exe
+File2=C:\WINDOWS\Bureau\reveil\Package\Setup.Lst
+File3=C:\WINDOWS\Bureau\reveil\Package\TBC Reveil.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
